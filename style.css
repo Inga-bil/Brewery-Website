@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+     background-color: #101010;
+    
+    font-family:monospace;
+    color: beige;
+    
+    
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+   
+    padding: 0 100px;
+    background:  #FDA50F;
+    width:100%;
+    box-sizing: border-box;
+   
+    
+}
+
+
+.logo{
+    color: black;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float:left;
+    font-weight: bold;
+    
+}
+
+
+
+button{
+    color:#FDA50F;
+    background-color: black;
+    font-size:24 px;
+    float:left;
+        border-radius: 25px;
+    text-align: center;
+    display: flex;
+    
+
+}
+nav{
+    float: right;
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li{
+    list-style: none;
+}
+
+
+a{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+a:hover{
+    color:black;
+    background:#F5F5DC;
+}
+.menu-toggle{
+    color: black;
+    float:right;
+    line-height: 50px;
+    font-size:24px;
+    cursor:pointer;
+    display:none;
+    
+}
+@media(max-width:991px){
+    
+    header{
+        padding: 0 20px;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    nav{
+      
+        position: absolute;
+        width: 100%;
+        height: calc(50vh - 50px);
+        background: #CD853F;
+        top: 50px;
+        left:-100%;
+        transition: 0.5s;
+        
+    }
+    .active{
+        left: 0;
+    }
+  ul{
+        display: block;
+        text-align: left;
+    }
+    a{
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+    
+}
+
+
+
+.beer-tap
+{
+    width: 800px;
+   display: block;
+  margin-left:auto ;
+  margin-right:auto ;
+}
+
+
+
+.beers{
+    width: 800px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.artist
+{
+     width: 800px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+@media(min-width:768px){
+     
+.block{
+    
+
+    float:left;
+     height: 340px;
+    width:25%;
+    border: 1px solid black;
+    padding:10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url(img/brick.jpg);
+  justify-content:space-between;
+      
+}  
+}
+   
+
+
+
+.season{
+      width: 600px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+
+.taproom{
+     width: 800px;
+   display: block;
+  margin-left:auto ;
+  margin-right:auto ;
+    
+}
+
+
+.main{
+    text-align: center; 
+}
+  
+.main h2{
+    background-image: url(img/wood.jpeg);
+}
+
+.box-7{
+    
+    background-image: url(img/brick.jpg);
+ 
+}
+
+.box-7 a{
+    
+    color:coral;
+    text-decoration:underline;
+    
+}
+ 
+
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
